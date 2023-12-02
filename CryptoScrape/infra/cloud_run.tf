@@ -14,7 +14,6 @@ resource "google_cloud_run_service" "selenium_server" {
     }
   }
 
- 
 
   traffic {
     percent         = 100
